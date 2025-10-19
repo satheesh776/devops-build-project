@@ -1,0 +1,8 @@
+version: '3'
+services:
+  react-app:
+    image: react-prod-app
+    container_name: react-app
+    ports:
+      - "80:80"
+    restart: always
